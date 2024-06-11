@@ -1,5 +1,5 @@
 .page {
-  --font-family: 'IBM Plex mono';
+  --font-family: 'IBM Plex mono', sans-serif;
   --font-size: 18px;
   --line-height-small: 82.5%;
   --line-height-normal: 100%;

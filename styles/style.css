@@ -9,7 +9,8 @@
 }
 
 .header {
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
   position: relative;
   padding: 10px;
   display: grid;
@@ -217,6 +218,7 @@
 footer {
   margin-block-start: 40px;
   block-size: 100vh;
+  min-block-size: 668px;
   position: relative;
   padding: 10px;
   display: grid;

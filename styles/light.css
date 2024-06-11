@@ -1,14 +1,6 @@
 .page.theme_light {
-  --font-family: 'IBM Plex mono';
-  --font-size: 18px;
-  --line-height-small: 82.5%;
-  --line-height-normal: 100%;
-  --line-height-big: 130%;
-  --font-weight: normal;
-  --accent-font-weight: bold;
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #FFC2E6;
-  --accent-color: #FF0070;
+  --bg-color: #FFF1F7;
   --rec-color: transparent;
   --rec-after-color: transparent;
   --text-color: #353430;
@@ -17,26 +9,20 @@
   --decorated-zone-color: #353430;
   --title-color: #FFC2E6;
   --shadow-color: #FF8DCB;
-  --header-subtitle-color: #353430;
-  --title-background-color: #FF8DCB;
+  --subtitle-color: #353430;
+  --subtitle-background-color: #FF8DCB;
+  --title-background-color:  #FF8DCB;
   --link-border: 1px solid #353430;
   --button-outline-active: 1px solid #000028;
   --button-outline-hover: 1px solid rgb(53, 52, 48, 0.4);
-  --button-underline: 1px solid #353430;
+  --button-underline-focus: 1px solid #353430;
+  --link-underline-hover: #353430;
 }
 
 @media (prefers-color-scheme: light) {
   .page {
-    --font-family: 'IBM Plex mono';
-    --font-size: 18px;
-    --line-height-small: 82.5%;
-    --line-height-normal: 100%;
-    --line-height-big: 130%;
-    --font-weight: normal;
-    --accent-font-weight: bold;
     --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #FFC2E6;
-    --accent-color: #FF0070;
+    --bg-color: #FFF1F7;
     --rec-color: transparent;
     --rec-after-color: transparent;
     --text-color: #353430;
@@ -45,11 +31,13 @@
     --decorated-zone-color: #353430;
     --title-color: #FFC2E6;
     --shadow-color: #FF8DCB;
-    --header-subtitle-color: #353430;
-    --title-background-color: #FF8DCB;
+    --subtitle-color: #353430;
+    --subtitle-background-color: #FF8DCB;
+    --title-background-color:  #FF8DCB;
     --link-border: 1px solid #353430;
     --button-outline-active: 1px solid #000028;
     --button-outline-hover: 1px solid rgb(53, 52, 48, 0.4);
-    --button-underline: 1px solid #353430;
+    --button-underline-focus: 1px solid #353430;
+    --link-underline-hover: #353430;
   }
 }

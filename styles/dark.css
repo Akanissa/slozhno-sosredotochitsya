@@ -1,14 +1,6 @@
 .page.theme_dark {
-  --font-family: 'IBM Plex mono';
-  --font-size: 18px;
-  --line-height-small: 82.5%;
-  --line-height-normal: 100%;
-  --line-height-big: 130%;
-  --font-weight: normal;
-  --accent-font-weight: bold;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --accent-color: #FF0070;
   --rec-color: #FF0070;
   --rec-after-color: #FF0070;
   --text-color: #F1B2CE;
@@ -17,10 +9,12 @@
   --decorated-zone-color: #FF0070;
   --title-color: #DB00FF;
   --shadow-color: #FF0070;
-  --header-subtitle-color: #000028;
+  --subtitle-color: #000028;
+  --subtitle-background-color: #FF0070;
   --title-background-color: #FF0070;
   --link-border: 1px solid #F1B2CE;
   --button-outline-active: 1px solid #FF0070;
   --button-outline-hover: 1px solid rgb(255, 0, 112, 0.4);
-  --button-underline: 1px solid #FF0070;
+  --button-underline-focus: 1px solid #FF0070;
+  --link-underline-hover: #F1B2CE;
 }

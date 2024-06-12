@@ -1,5 +1,5 @@
 .page {
-  --font-family: 'IBM Plex mono', sans-serif;
+  --font-family: 'IBM Plex mono', monospace;
   --font-size: 18px;
   --line-height-small: 82.5%;
   --line-height-normal: 100%;
@@ -24,4 +24,11 @@
   --button-outline-hover: 1px solid rgb(255, 0, 112, 0.4);
   --button-underline-focus: 1px solid #FF0070;
   --link-underline-hover: #F1B2CE;
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
+}
+
+@media (width >=768px) {
+  .page {
+    --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

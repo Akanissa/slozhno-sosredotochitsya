@@ -24,7 +24,7 @@
   --button-outline-hover: 1px solid rgb(255, 0, 112, 0.4);
   --button-underline-focus: 1px solid #FF0070;
   --link-underline-hover: #F1B2CE;
-  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 @media (width >=768px) {
